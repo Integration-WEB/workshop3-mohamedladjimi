@@ -10,19 +10,20 @@ body {
 .service-background {
   padding: 5rem 0;
   z-index: 1000 !important;
-  
 }
 
 #contact {
   z-index: 1000;
 }
 
-
+.caption {
+  top: 65%;
+}
 
 /*============= FOOTER =============*/
 
-
 /*===== FIXED BACKGROUND IMG =====*/
+
 .fixed {
   position: fixed;
   /* The element is positioned relative to the viewport which means it always stays in the same place even if the page is scrolled.*/
@@ -56,17 +57,33 @@ body {
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
+
 @media (min-width: 1200px) {
+  .caption {
+    top: 65%;
+  }
 }
+
 /* Devices under 992px (lg) */
+
 @media (max-width: 992px) {
-  
+  .caption {
+    top: 65%;
+  }
 }
+
 /* Devices under 768px (md) */
+
 @media (max-width: 768px) {
-  
+  .caption {
+    top: 65%;
+  }
 }
+
 /* Devices under 576px (sm) */
+
 @media (max-width: 576px) {
-  
+  .caption {
+    top: 37%;
+  }
 }
